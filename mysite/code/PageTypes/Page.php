@@ -31,7 +31,6 @@ class Page extends SiteTree {
 	 */
 
 	private static $extensions = [
-		'ResponsiveImagesExtension'
 	];
 
 	#endregion Relationships
