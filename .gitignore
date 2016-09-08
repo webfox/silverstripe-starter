@@ -1,18 +1,10 @@
-.idea/
-bower_components/
+*
+
 node_modules/
 
-.DS_Store
-error.log
-
-httpdocs/*
-
-!httpdocs/mysite/
-!httpdocs/themes/
-!httpdocs/composer.*
+!mysite/
+!themes/
+!composer.*
 !*.development
 !*.html
 !*.txt
-
-_config.php
-config.yml
