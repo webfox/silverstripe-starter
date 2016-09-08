@@ -1,0 +1,13 @@
+---
+Name: development
+After:
+  - 'framework/*'
+  - 'cms/*'
+---
+
+#Any domain that contains these strings will generate a robots no follow meta tag
+Development:
+  NoIndexDomains:
+    - xtools.net.nz
+    - vagrant
+    - localhost

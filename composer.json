@@ -1,0 +1,28 @@
+{
+	"name": "silverstripe-starter",
+	"description": "A SilverStripe starter",
+	"require": {
+		"php": ">=5.4",
+		"silverstripe/cms": "~3.4",
+		"silverstripe/framework": "~3.4",
+		"heyday/silverstripe-optimisedimage": "~2.2",
+		"silverstripe/html5": "~1.0",
+		"webfox/userforms": "~3.0",
+		"silverstripe/googlesitemaps": "~1.2",
+		"xplore/composerupdates": "~1.0",
+		"silverstripe/blog": "~2.0",
+		"webfox/silverstripe-helpers": "~1.1",
+		"silverstripe/redirectedurls": "~1.0",
+		"sheadawson/silverstripe-linkable": "~1.2",
+		"undefinedoffset/sortablegridfield": "~0.4",
+		"silverstripe-australia/gridfieldextensions": "~1.2",
+		"colymba/gridfield-bulk-editing-tools": "~2.1",
+		"colymba/gridfield-gallery-theme": "~1.0",
+		"unclecheese/betterbuttons": "~1.2",
+		"sheadawson/quickaddnew": "~1.1",
+		"camspiers/silverstripe-loggerbridge": "~1.0"
+	},
+	"config": {
+		"process-timeout": 600
+	}
+}

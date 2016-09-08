@@ -1,0 +1,21 @@
+---
+After: 'silverstripe-optimisedimage/config#core'
+---
+ImageOptimiserService:
+  enabledCommands:
+    - jpegoptim
+    - pngquant
+    - optipng
+    - advpng
+  availableCommands:
+    jpg:
+      jpegoptim: '%1$s/jpegoptim -p -m%3$d --strip-all %2$s'
+    png:
+      pngquant: '%1$s/pngquant --quality=20-%3$d --force %2$s' 
+      pngcrush: '%1$s/pngcrush -rem gAMA -rem cHRM -rem iCCP -rem sRGB -force -reduce -ow %2$s /tmp/pngout.png'
+      optipng: '%s/optipng %s'
+      advpng: '%s/advpng -z4 %s'
+    gif:
+      optipng: '%s/optipng %s'
+  optimisingQuality: 70
+  binDirectory: '/usr/bin'
