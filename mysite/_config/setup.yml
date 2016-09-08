@@ -19,7 +19,7 @@ Injector:
   StreamHandler:
     class: Monolog\Handler\StreamHandler
     constructor:
-      0: '../../error.log'
+      0: '../error.log'
   LoggerBridge:
     class: Camspiers\LoggerBridge\LoggerBridge
     constructor:

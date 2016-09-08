@@ -2,9 +2,12 @@
 
 node_modules/
 
-!mysite/
-!themes/
+!mysite/**/*
+!themes/**/*
 !composer.*
 !*.development
 !*.html
 !*.txt
+
+config.yml
+_config.php
