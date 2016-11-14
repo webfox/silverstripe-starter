@@ -4,6 +4,8 @@
  * Base page type
  */
 class Page extends SiteTree {
+	
+	use HasOnAfterUpdateCMSFieldsExtensionPoint;
 
 	#region Declarations
 
